@@ -7,12 +7,15 @@ __pycache__/
 *.sqlite3
 
 # Documents and images often not desired in repo
-*.docx
-*.pdf
+# keep general ignores but allow specific Modul_1 documents (laprak/praktikum)
 *.png
 *.jpg
 *.jpeg
 *.gif
+
+# Allow these specific Modul_1 documents to be tracked
+!Modul_1/PRAKTIKUM 1.docx
+!Modul_1/LAPRAK_M1_MOHAMAD ABAN SY'BANA_TINFC-2023-04_GRAFIKA KOMPUTER.pdf
 
 # OS files
 Thumbs.db
