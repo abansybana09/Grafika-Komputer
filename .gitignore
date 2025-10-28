@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Documents and images often not desired in repo
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE files
+.vscode/
